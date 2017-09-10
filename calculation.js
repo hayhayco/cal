@@ -29,7 +29,7 @@ window.onload = function()
         case "=":
           var lastChar = detail.indexOf(/.$/)
 
-          if 
+          if (operators.indexOf(lastChar)
           result.innerHTML = eval(detail.innerHTML);
           break;
         default:
